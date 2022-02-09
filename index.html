@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        HTML action Attribute
+    </title>
+</head>
+ 
+<body>
+    <h1>Simple calculator</h1>
+ 
+    <h2>HTML action Attribute</h2>
+ 
+    <form action="display.php"
+          method="post"
+          id="value1">
+ 
+        <label for="Enter value1">
+          Enter value1
+      </label>
+        <input type="text"
+               name="Enter value1"
+               id=" value2">
+ 
+        <br>
+        <br>
+ 
+        <label for="Enter value2">
+         Enter value2
+      </label>
+        <input type="text"
+               name="Enter value2">
+    </form>
+    <div id=sum>sum</div>
+    function sum()
+    {
+    
+ sum=value1+value2;
+ }
+    <br>
+ 
+    <button onclick="sum()">
+        Sum
+    </button>
+    <br>
+ 
+</html>
