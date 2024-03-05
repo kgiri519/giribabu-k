@@ -1,0 +1,56 @@
+
+/* FundCollection.css */
+
+/* Style for the main title */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the container of fund collection */
+.fund-collection {
+  margin: 0 auto;
+  width: 100%;
+  border: 5px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style for the select dropdowns */
+form {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: blue;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for the monthly maintenance fee section */
+.monthly-fee {
+  margin-top: 20px;
+}
+
+/* Style for the invoice generation section */
+.invoice-generation {
+  margin-top: 20px;
+}
+
+/* Style for the activity management section */
+.activity-management {
+  margin-top: 20px;
+}
+
+/* Style for the payment requests section */
+.payment-requests {
+  margin-top: 20px;
+}
+

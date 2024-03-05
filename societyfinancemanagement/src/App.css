@@ -1,0 +1,70 @@
+/* App.css */
+
+body, html {
+  margin: 50px;
+  padding: 50px;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aquamarine;/* Change this to your financial management image */
+  background-size: cover;
+}
+
+ h1 {
+  margin-bottom: 50px;
+  color: black; /* Add black color to h1 tag */
+  font-size: 50px;
+  font-style: oblique;
+}
+.login-container {
+  background-color: rgba(62, 202, 27, 0.8); /*  background for login form */
+  padding: 20px;
+  border-radius: 10px;
+   /* Add background image for the form */
+  background-size: cover;
+}
+
+.login-form {
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-style: normal;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00ff04;
+  color: #ca0808;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #827e8c;
+}
+
